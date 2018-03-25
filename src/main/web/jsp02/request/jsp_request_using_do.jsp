@@ -14,6 +14,7 @@
 <%
     String userName = request.getParameter("userName");
     String skills = "";
+    // 获取属性值为数组的信息 - Created by YC.
     String[] skillArr = request.getParameterValues("skills");
     if (skillArr != null && skillArr.length > 0) {
         for (String skill : skillArr) {

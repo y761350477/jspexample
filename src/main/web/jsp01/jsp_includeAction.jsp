@@ -9,4 +9,10 @@
 <html>
 <jsp:include page="jsp_includeAction_header.html"></jsp:include>
 <jsp:include page="jsp_includeAction_body.jsp"></jsp:include>
+<%!
+    String name = "YangChen";
+%>
+<%
+    out.print(name);
+%>
 </html>
